@@ -1,0 +1,7 @@
+.cache
+.vscode
+.venv
+out
+node_modules
+static/vtkWasmRendererApplication.js
+src/compile_commands.json

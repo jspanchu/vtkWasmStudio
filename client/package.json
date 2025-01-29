@@ -1,0 +1,25 @@
+{
+    "name": "vtk-wasm-studio",
+    "scripts": {
+        "build": "webpack --mode=production --stats-children",
+        "dev": "webpack serve --mode=development --stats-children"
+    },
+    "devDependencies": {
+        "css-loader": "^7.1.2",
+        "html-webpack-plugin": "^5.6.3",
+        "lit": "^3.2.1",
+        "monaco-editor": "^0.52.2",
+        "monaco-editor-webpack-plugin": "^7.1.0",
+        "style-loader": "^4.0.0",
+        "webpack": "^5.97.1",
+        "webpack-cli": "^6.0.1",
+        "webpack-dev-server": "^5.2.0",
+        "webpack-mode": "^1.1.0",
+        "worker-loader": "^3.0.8",
+        "@xterm/addon-fit": "^0.9.0",
+        "@xterm/xterm": "^5.5.0"
+    },
+    "dependencies": {
+        "split-grid": "^1.0.11"
+    }
+}
